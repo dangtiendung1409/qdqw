@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="715.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="demoPosMarket.ManageProduct">
+    <children>
+        <TableView fx:id="tableProducts" layoutX="15.0" layoutY="85.0" prefHeight="574.0" prefWidth="914.0">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="colDescription" minWidth="230.0" prefWidth="75.0" text="Description" />
+                <TableColumn fx:id="colPrice" prefWidth="75.0" text="Price" />
+                <TableColumn fx:id="colCategory" prefWidth="75.0" text="Category" />
+                <TableColumn fx:id="colStatus" prefWidth="75.0" text="Status" />
+                <TableColumn fx:id="colImage" prefWidth="236.0" text="Image" />
+            </columns>
+        </TableView>
+        <TextField fx:id="searchTextField" layoutX="15.0" layoutY="45.0" prefHeight="27.0" prefWidth="637.0" />
+        <Button layoutX="656.0" layoutY="45.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="126.0" style="-fx-background-color: blue;" text="Search" textFill="#fffefe" />
+        <Label layoutX="899.0" layoutY="9.0" text="[Close]" />
+        <Text layoutX="334.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Product">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Button layoutX="795.0" layoutY="45.0" mnemonicParsing="false" onAction="#xuLyNutTaoMoi" prefHeight="27.0" prefWidth="133.0" style="-fx-background-color: green;" text="Create" textFill="WHITE" />
+    </children>
+    <padding>
+        <Insets bottom="8.0" left="8.0" right="8.0" />
+    </padding>
+</AnchorPane>

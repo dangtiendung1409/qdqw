@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="14.0" layoutY="39.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="50K" textFill="#fcf9f9" />
+      <Button layoutX="182.0" layoutY="39.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="70k" textFill="#f2ecec" />
+      <Button layoutX="97.0" layoutY="39.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="60k" textFill="WHITE" />
+      <Button layoutX="14.0" layoutY="105.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="90k" textFill="#fcfcfc" />
+      <Label layoutX="262.0" layoutY="45.0" prefHeight="27.0" prefWidth="71.0" text="Tổng tạm :  " />
+      <Label layoutX="324.0" layoutY="45.0" prefHeight="27.0" prefWidth="145.0" />
+      <Label layoutX="262.0" layoutY="92.0" prefHeight="27.0" prefWidth="71.0" text="Tổng tiền : " />
+      <Label layoutX="262.0" layoutY="131.0" prefHeight="27.0" prefWidth="71.0" text="Khách đưa : " />
+      <Label layoutX="262.0" layoutY="173.0" prefHeight="27.0" prefWidth="71.0" text="Tiền trả lại : " />
+      <Label layoutX="327.0" layoutY="92.0" prefHeight="27.0" prefWidth="138.0" />
+      <Label layoutX="327.0" layoutY="131.0" prefHeight="27.0" prefWidth="138.0" />
+      <Label layoutX="327.0" layoutY="173.0" prefHeight="27.0" prefWidth="138.0" />
+      <Label layoutX="429.0" layoutY="6.0" text="[Close]" />
+      <Button layoutX="97.0" layoutY="105.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="100k" textFill="#fcfcfc" />
+      <Button layoutX="182.0" layoutY="105.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="120k" textFill="#fcfcfc" />
+      <Button layoutX="14.0" layoutY="167.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="150k" textFill="#fcfcfc" />
+      <Button layoutX="97.0" layoutY="167.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="200k" textFill="#fcfcfc" />
+      <Button layoutX="182.0" layoutY="167.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="300k" textFill="#fcfcfc" />
+      <Button layoutX="14.0" layoutY="229.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: blue;" text="500k" textFill="#fcfcfc" />
+      <Button layoutX="263.0" layoutY="223.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: green;" text="In hoá đơn " textFill="#fcfafa" />
+   </children>
+</AnchorPane>

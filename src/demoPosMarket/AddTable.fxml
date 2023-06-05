@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="demoPosMarket.TableController" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="17.0" layoutY="38.0" text="Table Name">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtTableName" layoutX="117.0" layoutY="36.0" prefHeight="27.0" prefWidth="176.0" />
+        <TableView fx:id="tableView" layoutX="17.0" layoutY="83.0" prefHeight="300.0" prefWidth="565.0">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="93.0" text="Id" />
+                <TableColumn fx:id="colName" prefWidth="114.0" text="Name" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnSave" layoutX="300.0" layoutY="36.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="79.0" style="-fx-background-color: blue;" text="Save" textFill="WHITE" onAction="#saveData" />
+        <Button fx:id="btnUpdate" layoutX="390.0" layoutY="36.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="79.0" style="-fx-background-color: green;" text="Update" textFill="WHITE" onAction="#updateData" />
+        <Button fx:id="btnDelete" layoutX="479.0" layoutY="36.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="79.0" style="-fx-background-color: red;" text="Delete" textFill="WHITE" onAction="#deleteData" />
+        <Label layoutX="558.0" layoutY="6.0" text="[Close]" />
+    </children>
+</AnchorPane>
